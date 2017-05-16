@@ -1,0 +1,27 @@
+{
+    "name": "flobbos/laravel-datable",
+    "description": "A tiny Laravel package for easily switching localized dates",
+    "keywords": ["laravel", "date", "carbon"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexej Krzewitzki",
+            "email": "alexej@helloo.it",
+            "homepage": "http://helloo.it"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "illuminate/support": "5.3.*",
+        "artesaos/seotools": "^0.9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flobbos\\Datable\\": "src/Datable/"
+        },
+        "classmap": [
+        ]
+    },
+
+    "minimum-stability": "dev"
+}
