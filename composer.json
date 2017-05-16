@@ -1,7 +1,7 @@
 {
     "name": "flobbos/laravel-seo-wrapper",
     "description": "A small wrapper for artesaos/seotools SEO Package",
-    "keywords": ["laravel", "date", "carbon"],
+    "keywords": ["laravel", "seo"],
     "license": "MIT",
     "authors": [
         {
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Flobbos\\Datable\\": "src/Datable/"
+            "Flobbos\\SeoWrapper\\": "src/SeoWrapper/"
         },
         "classmap": [
         ]
