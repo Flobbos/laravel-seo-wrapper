@@ -7,6 +7,8 @@ use Illuminate\Support\Facades\Lang;
 
 trait SeoWrapperTrait {
     
+    use SEOToolsTrait;
+    
     public function setSeo($title, $slug, $meta_description = null){
         
         //Process title first
