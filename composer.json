@@ -1,7 +1,7 @@
 {
-    "name": "flobbos/laravel-datable",
-    "description": "A tiny Laravel package for easily switching localized dates",
-    "keywords": ["laravel", "date", "carbon"],
+    "name": "flobbos/laravel-seo-wrapper",
+    "description": "A small wrapper for artesaos/seotools SEO Package",
+    "keywords": ["laravel", "seo"],
     "license": "MIT",
     "authors": [
         {
@@ -12,12 +12,12 @@
     ],
     "require": {
         "php": ">=5.6.0",
-        "illuminate/support": "5.3.*",
+        "illuminate/support": ">=5.1.0",
         "artesaos/seotools": "^0.9.2"
     },
     "autoload": {
         "psr-4": {
-            "Flobbos\\Datable\\": "src/Datable/"
+            "Flobbos\\SeoWrapper\\": "src/SeoWrapper/"
         },
         "classmap": [
         ]
