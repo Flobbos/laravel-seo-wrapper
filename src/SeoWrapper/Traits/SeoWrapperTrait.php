@@ -22,6 +22,7 @@ trait SeoWrapperTrait {
         }
         //Opengraph 
         $this->seo()->opengraph()->addProperty('type', 'page');
+        //Check request path
         $url = request()->path() == '/' ? '/' : $slug;
         $this->seo()->opengraph()->setUrl(url($url) );
         //Canonical
